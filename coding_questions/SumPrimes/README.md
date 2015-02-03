@@ -1,6 +1,6 @@
 ### Sum of Primes
 
-Write a program which dtermines the sum of the first 1000 prime numbers
+Write a program which determines the sum of the first 1000 prime numbers
 
 No input.
 
