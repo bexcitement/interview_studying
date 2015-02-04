@@ -11,4 +11,4 @@ def sumMultiples():
             total += num
     return total 
 
-sumMultiples()
+print sumMultiples()
