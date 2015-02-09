@@ -21,7 +21,6 @@ def isprime(n):
 def PrimePalin():
     for num in reversed(range(1,1001)):
         if str(num) == str(num)[::-1] and isprime(num):
-            print num
-            return
+            return num
 
-PrimePalin()
+print PrimePalin()
