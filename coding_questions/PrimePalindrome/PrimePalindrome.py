@@ -19,15 +19,9 @@ def isprime(n):
     return True 
 
 def PrimePalin():
-    num_list = range(1, 1001)
-    highest_pali = 0
-    for num in num_list:
+    for num in reversed(range(1,1001)):
         if str(num) == str(num)[::-1] and isprime(num):
-            highest_pali = num
-        else: 
-            continue
-
-    print highest_pali
-
+            print num
+            return
 
 PrimePalin()

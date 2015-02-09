@@ -1,5 +1,5 @@
 # helper function to check if an integer is prime
-def isprime(n):
+def isPrime(n):
     # make sure n is a positive integer
     n = abs(int(n))
     # 0 and 1 are not primes
@@ -18,17 +18,14 @@ def isprime(n):
             return False
     return True
 
-def SumPrimes():
+def sumPrimes():
 	num_list = []
 	i = 0
 
 	while len(num_list) < 1000:
-		if isprime(i) == True:
+		if isPrime(i) == True:
 			num_list.append(i)
-			i +=1
-		else:
-			i +=1
-			continue
-	print sum(num_list)
+	        i +=1
+	return sum(num_list)
 
-SumPrimes()
+print sumPrimes()
